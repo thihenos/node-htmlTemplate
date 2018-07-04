@@ -1,0 +1,14 @@
+<!-- This is assuming that this document will get in folder Layout, the dust file layout as it template -->
+{>"layout/layout" /}
+
+<!-- This variable, is responsable for get all HTML content and compile it together with the  {+body /} in layout file-->
+{<body}
+	
+	<div class="row"><br></div>
+	<main role="main" class="container">
+		<div class="jumbotron">
+        	<h1><p><strong>Here it is my second dust file!</strong></p></h1>
+        	<p class="lead">Change the layout\layout file to see how its change</p>
+      	</div>
+	</main>
+{/body}
